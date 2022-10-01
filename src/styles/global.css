@@ -10,16 +10,20 @@
   --yellow: #FFA400;
   --white: #FFFFFF;
   --input-background: #202128;
-  --input-stoke: #363743;
+  --input-stroke: #363743;
   --placeholder: #717983;
-}
-
-html {
-  font-size: 62,5%;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+input, button {
+  all: unset;
+}
+
+html {
+  font-size: 62,5%;
 }
 
 @media (max-width: 640px) {
