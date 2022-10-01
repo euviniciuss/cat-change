@@ -88,4 +88,32 @@
   padding: 19px 31px;
   border-radius: 10px;
   border: transparent;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+
+.form-container button:hover {
+  filter: brightness(0.8);
+}
+
+.cat-info-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.cat-info-container img {
+  object-fit: cover;
+  border-radius: 10px;
+
+  width: 656px;
+  height: 406.05px;
+}
+
+.cat-info-container p {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 22px;
 }
