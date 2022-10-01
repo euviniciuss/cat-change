@@ -3,4 +3,14 @@
   height: 100vh;
 
   background-color: var(--background);
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
