@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #232528;
+  --orange: #DC602E;
+  --yellow: #FFA400;
+  --white: #FFFFFF;
+  --input-background: #202128;
+  --input-stoke: #363743;
+  --placeholder: #717983;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
