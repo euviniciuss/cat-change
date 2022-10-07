@@ -22,20 +22,25 @@
     </section>
 
     <section class="search-container">
-      <form class="form-container" action="onSubmit">
+      <form class="form-container">
         <fieldset class="form-content">
           <label>Pesquisar</label>
-          <input type="text" placeholder="Pesquise pelo nome do gato">
+          <input id="searchCat" type="text" placeholder="Pesquise pelo nome do gato">
         </fieldset>
 
-        <button class="search-button" type="submit">Pesquisar</button>
+        <button id="buttonSearch" class="search-button" type="button">Pesquisar</button>
       </form>
-
+      
       <div class="cat-info-container">
-        <img src="./assets/cat.png" class="cat-image" alt="Quadro separado para imagens de gatos">
-        <p><strong>Nome do gato:</strong> Gesonel</p>
+        <img id="catImage" class="cat-image">
+        <span class="nameCatContainer">
+          <strong>Nome do gato: </strong>
+          <p id="nameCat"></p>
+        </span>
       </div>
     </section>
   </main>
+
+  <script src="./index.js"></script>
 </body>
 </html>

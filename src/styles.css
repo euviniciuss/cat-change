@@ -110,10 +110,15 @@
 
   width: 656px;
   height: 406.05px;
+  visibility: hidden;
 }
 
-.cat-info-container p {
+.nameCatContainer {
+  display: flex;
+  gap: 12px;
+}
+
+.nameCatContainer p, strong{
   color: var(--white);
-  font-weight: 400;
   font-size: 22px;
 }
